@@ -1,0 +1,897 @@
+{
+    "nodes":[{
+		"key": "0",
+		"title": "CRUDE",
+		"shape": "Box",
+		"width": 245,
+		"status": "CustomSuccess",
+		"attributes": [
+		  {
+			"label": "FG FROM",
+			"value": "NHT"
+		  },
+		  {
+			"label":"FG FROM",
+			"value": "MHC"
+		  },
+		  {
+			"label":"FG FROM",
+			"value": "PLATFORMING"
+		  },
+		  {
+			"label":"FG FROM",
+			"value": "PENEX"
+		  },
+		  {
+			"label":"UNSTAB LPG FROM",
+			"value": "PLATFORMING"
+		  },
+		  {
+			"label":"UNSTAB LPG FROM",
+			"value": "PENEX"
+		  },
+		  {
+			"label":"UNSTAB LPG FROM",
+			"value": "NHT"
+		  }
+		]
+	  },
+	  {
+		"key": "1",
+		"title": "SAT GAS CON AND DEPROPANIZER",
+		"shape": "Box",
+		"status": "CustomSuccess",
+		"attributes": [
+			{
+			  "value": "UOP"
+			}
+		]
+	  },
+	  {
+		"key": "2",
+		"title": "WILD NAPHTHA FROM MHC"
+	  },
+	  {
+		"key": "3",
+		"title": "SAT FG to H2 PLANT/FG"
+	  },
+	  {
+		"key": "4",
+		"title": "CDU",
+		"shape": "Box",
+		"status": "CustomSuccess",
+		"attributes": [
+			{
+			  "value": "UOP"
+			}
+		]
+	  },
+	  {
+		"key": "5",
+		"title": "PROPANE TO STORAGE"
+	  },
+	  {
+		"key": "6",
+		"title": "SAT LPG MEROX",
+		"shape": "Box",
+		"status": "CustomSuccess",
+		"attributes": [
+			{
+			  "value": "UOP"
+			}
+			]
+	  },
+	  {
+		"key": "7",
+		"title": "SOUR WATER TO SWS"
+	  },
+	  {
+		"key": "8",
+		"title": "NHT/NAPHTHA SPLITTER/NSU",
+		"shape": "Box",
+		"status": "CustomSuccess",
+		"attributes": [
+			{
+			  "value": "UOP"
+			}
+		]
+	  },
+	  {
+		"key": "9",
+		"title": "RFCC RXn/REG PRT MAIN COLUMN",
+		"shape": "Box",
+		"status": "CustomSuccess",
+		"attributes": [
+			{
+			  "value": "UOP"
+			}
+		]
+	  },
+	  {
+		"key": "10",
+		"title": "UNSAT GAS CON/GASOLINE SPLITTER",
+		"shape": "Box",
+		"status": "CustomSuccess",
+		"attributes": [
+			{
+			  "value": "UOP"
+			}
+		]
+	  },
+	  {
+		"key": "11",
+		"title": "RFCC GASOLINE HDS",
+		"shape": "Box",
+		"status": "CustomSuccess",
+		"attributes": [
+			{
+			  "value": "EMRE"
+			}
+		]
+	  },
+	  {
+		"key": "12",
+		"title": "KEROSENE MEROX",
+		"shape": "Box",
+		"status": "CustomSuccess",
+		"attributes": [
+			{
+			  "value": "UOP"
+			}
+		]
+	  },
+	  {
+		  "key": "13",
+		  "title": "MHC UNICRACKING",
+		  "shape": "Box",
+		  "status": "CustomSuccess",
+		  "attributes": [
+			  {
+				  "value": "UOP"
+				}
+			]
+		},
+		{
+			"key": "14",
+			"title": "UNSAT C4 FROM PRU(PART)"
+		},
+		{
+		  "key": "15",
+		  "title": "DIB/ALKYLATION",
+		  "shape": "Box",
+		  "status": "CustomSuccess",
+		  "attributes": [
+			  {
+				"value": "DUPONT"
+			  }
+		  ]
+		},
+		{
+		  "key": "16",
+		  "title": "SAR PLANT",
+		  "shape": "Box",
+		  "status": "CustomSuccess",
+		  "attributes": [
+			  {
+				"value": "DUPONT"
+			  }
+		  ]
+		},
+		{
+		  "key": "17",
+		  "title": "JET FUEL",
+		  "shape": "Box"
+		},
+		{
+		  "key": "18",
+		  "title": "PENEX",
+		  "shape": "Box",
+		  "status": "CustomSuccess",
+		  "attributes": [
+			  {
+				"value": "UOP"
+			  }
+		  ]
+		},
+		{
+		  "key": "19",
+		  "title": "PLATFORMING",
+		  "shape": "Box",
+		  "status": "CustomSuccess",
+		"attributes": [
+			{
+			  "value": "UOP"
+			}
+		]
+		},
+		{
+			"key": "20",
+			"title": "UNSTAB LPG TO SAT GAS CON"
+		},
+		{
+			"key": "21",
+			"title": "FG TO SAT GAS CON"
+		},
+		{
+			"key": "22",
+			"title": "COMPRESSED H2 TO C4 SHP/BUTAMER"
+		},
+		{
+			"key": "23",
+			"title": "H2 PLANT(INCLUDING PSA)",
+			"shape": "Box",
+			"status": "CustomSuccess",
+			"attributes": [
+				{
+					"value": "AIR LIQUIDE"
+				}
+			]
+		},
+		{
+			"key": "24",
+			"title": "NATURAL GAS"
+		},
+		{
+			"key": "25",
+			"title": "SAT FG"
+		},
+		{
+			"key": "26",
+			"title": "TO FG"
+		},
+		{
+			"key": "27",
+			"title": "UNSAT LPG MEROX",
+			"shape": "Box",
+			"status": "CustomSuccess",
+			"attributes": [
+				{
+					"value": "UOP"
+				}
+			]
+		},
+		{
+			"key": "28",
+			"title": "C5 MEROX",
+			"shape": "Box",
+			"status": "CustomSuccess",
+			"attributes": [
+				{
+					"value": "UOP"
+				}
+			]
+		},
+		{
+			"key": "29",
+			"title": "PRU",
+			"shape": "Box",
+			"status": "CustomSuccess",
+			"attributes": [
+				{
+					"value": "INEOS"
+				}
+			]
+		},
+		{
+			"key": "30",
+			"title": "POLYPROPYLENE UNIT",
+			"shape": "Box",
+			"status": "CustomStandard",
+			"attributes": [
+				{
+					"value": "INEOS"
+				}
+			]
+		},
+		{
+			"key": "31",
+			"title": "C4 SHP",
+			"shape": "Box",
+			"status": "CustomStandard",
+			"attributes": [
+				{
+					"value": "UOP"
+				}
+			]
+		},
+		{
+			"key": "32",
+			"title": "BUTAMER",
+			"shape": "Box",
+			"status": "CustomStandard",
+			"attributes": [
+				{
+					"value": "UOP"
+				}
+			]
+		},
+		{
+			"key": "33",
+			"title": "PURE H2 FROM HGU",
+			"status": "CustomStandard"
+		},
+		{
+			"key": "34",
+			"title": "POLYPROPYLENE",
+			"status": "CustomStandard"
+		},
+		{
+			"key": "35",
+			"title": "UNSAT C4(PART) TO NHT",
+			"status": "CustomStandard"
+		},
+		{
+			"key": "36",
+			"title": "PROPANE",
+			"status": "CustomSuccess"
+		},
+		{
+			"key": "37",
+			"title": "EXPORT/HGU FEED"
+		},
+		{
+			"key": "38",
+			"title": "COMPRESSED H2 FROM PENEX"
+		},
+		{
+			"key": "39",
+			"title": "H2 FROM HGU"
+		},
+		{
+			"key": "40",
+			"title": "ACID GAS FROM SWS & ARU"
+		},
+		{
+			"key": "41",
+			"title": "ACID EXPORT TO COOLING TOWER"
+		},
+		{
+			"key": "42",
+			"title": "nC4/iC4/ALKYL BUTANE TO GASOLINE BLEND"
+		},
+		{
+			"key": "43",
+			"title": "TO GASOLINE BLEND"
+		},
+		{
+			"key": "44",
+			"title": "SAT ARU",
+			"shape": "Box"
+		},
+		{
+			"key": "45",
+			"title": "UNSAT ARU",
+			"shape": "Box"
+		},
+		{
+			"key": "46",
+			"title": "RICH ANIME FROM CDU/MHC/RFCC GASOLINE HDS"
+		},
+		{
+			"key": "47",
+			"title": "SAT ANIME FROM CDU/MHC/RFCC GASOLINE HDS"
+		},
+		{
+			"key": "48",
+			"title": "RICH ANIME FROM RFCC"
+		},
+		{
+			"key": "49",
+			"title": "UNSAT ANIME TO RFCC"
+		},
+		{
+			"key": "50",
+			"title": "SOUR WATER FROM CDU/MHC/RFCC GASOLINE HDS"
+		},
+		{
+			"key": "51",
+			"title": "SOUR WATER FROM CDU/RFCC"
+		},
+		{
+			"key": "52",
+			"title": "STRIPPED SOUR WATER TO CDU/MHC/RFCC GASOLINE HDS"
+		},
+		{
+			"key": "53",
+			"title": "STRIPPED SOUR WATER TO CDU/RFCC"
+		},
+		{
+			"key": "54",
+			"title": "TO SAR"
+		},
+		{
+			"key": "55",
+			"title": "ACID GAS TO SRU"
+		},
+		{
+			"key": "56",
+			"title": "NON PHENOLIC SWS",
+			"shape": "Box"
+		},
+		{
+			"key": "57",
+			"title": "PHENOLIC SWS",
+			"shape": "Box"
+		},
+		{
+			"key": "58",
+			"title": "SRU",
+			"shape": "Box",
+			"attributes": [
+				{
+					"value": "JACOBS"
+				}
+			]
+		},
+		{
+			"key": "59",
+			"title": "SULPHUR"
+		},
+		{
+			"key": "60",
+			"title": "Carbon Black Feedstock Storage",
+			"shape": "Box"
+		},
+		{
+			"key": "61",
+			"title": "FUEL OIL/BUNKER OIL",
+			"shape": "Box"
+		},
+		{
+			"key": "62",
+			"title": "CUTTER STOCK KEROSENE/LCO"
+		},
+		{
+			"key": "63",
+			"title": "DIESEL",
+			"shape": "Box"
+		},
+		{
+			"key": "64",
+			"title": "GASOLINE",
+			"shape": "Box",
+			"attributes": [
+				{
+					"value": "ALKYLATES"
+				},
+				{
+					"value": "C4 SHP PRODUCT"
+				},
+				{
+					"value": "nC4/iC4/ALKYL BUTANE FROM DIB ALKYLATION"
+				},
+				{
+					"value": "RFCC TREATED GASOLINE"
+				}
+			]
+		},
+		{
+			"key": "65",
+			"title": "CAUSTIC SCRUBBER",
+			"shape": "Box",
+			"attributes": [
+				{
+					"value": "MECS"
+				}
+			]
+		},
+		{
+			"key": "66",
+			"title": "RFCC TREATED GASOLINE TO TREATED GASOLINE BLEND"
+		},
+		{
+			"key": "67",
+			"title": "WILD NAPHTHA TO SAT GAS CON"
+		}
+	],
+    "lines":  [{
+        "from": "0",
+        "to": "1"
+      },
+      {
+        "from": "2",
+        "to": "1"
+      },
+      {
+        "from": "1",
+        "to": "3"
+      },
+      {
+		  "from": "1",
+		  "to": "5"
+		},
+		{
+			"from": "6",
+			"to": "1"
+		},
+		{
+			"from": "1",
+			"to": "6",
+			"description": "SWEET SAT LPG"
+		},
+		{
+			"from": "1",
+			"to": "7"
+		},
+		{
+			"from": "1",
+			"to": "8",
+			"description": "NAPTHA"
+		},
+		{
+			"from": "1",
+			"to": "15",
+			"description": "SAT C4"
+		},
+		{
+		  "from": "4",
+		  "to": "1"
+		},
+      {
+        "from": "4",
+        "to": "9"
+      },
+      {
+        "from": "4",
+        "to": "13"
+      },
+      {
+        "from": "4",
+        "to": "12",
+		"description": "KEROSENE"
+      },
+      {
+        "from": "4",
+        "to": "7"
+      },
+      {
+        "from": "8",
+        "to": "1",
+		"description": "STRIPPER OFF GAS"
+      },
+      {
+        "from": "8",
+        "to": "7"
+      },
+      {
+        "from": "8",
+        "to": "18",
+		"description": "LIGHT NAPHTHA"
+      },
+      {
+        "from": "8",
+        "to": "19"
+      },
+      {
+        "from": "19",
+        "to": "8",
+		"description": "H2 RICH GAS TO NHT"
+      },
+      {
+        "from": "14",
+        "to": "8"
+      },
+      {
+        "from": "9",
+        "to": "11",
+		"description": "HCN"
+      },
+      {
+        "from": "9",
+        "to": "60",
+		"description": "CLARIFIED OIL"
+      },
+      {
+        "from": "9",
+        "to": "61",
+		"description": "CLARIFIED OIL"
+      },
+      {
+        "from": "9",
+        "to": "13",
+		"description": "LCO"
+      },
+      {
+        "from": "9",
+        "to": "13",
+		"description": "FCC HCN"
+      },
+      {
+        "from": "9",
+        "to": "10"	
+      },
+      {
+        "from": "9",
+        "to": "7"	
+      },
+      {
+        "from": "29",
+        "to": "9",
+		"description": "UNSAT C4 RECYCLE"
+      },
+      {
+        "from": "10",
+        "to": "27"
+      },
+      {
+        "from": "10",
+        "to": "28",
+		"description": "C5"
+      },
+      {
+        "from": "10",
+        "to": "11",
+		"description": "RFCC C6 TO C8 NAPHTHA"
+      },
+      {
+        "from": "11",
+        "to": "10",
+		"description": "FG TO UNSAT GAS CON"
+      },
+      {
+        "from": "11",
+        "to": "7"
+      },
+      {
+        "from": "39",
+        "to": "11"
+      },
+      {
+        "from": "11",
+        "to": "66"
+      },
+      {
+        "from": "12",
+        "to": "17"
+      },
+      {
+        "from": "13",
+        "to": "17"
+      },
+      {
+        "from": "13",
+        "to": "7"
+      },
+      {
+        "from": "13",
+        "to": "67"
+      },
+      {
+        "from": "13",
+        "to": "21"
+      },
+      {
+        "from": "19",
+        "to": "13",
+		"description": "H2 RICH GAS TO MHC H2 MIX"
+      },
+      {
+        "from": "23",
+        "to": "13",
+		"description": "PURE H2 H2 MIX"
+      },
+      {
+        "from": "13",
+        "to": "19",
+		"description": "HYDROCRACKE D NAPHTHA"
+      },
+      {
+        "from": "13",
+        "to": "23",
+		"description": "MHC COLD FLASH DRUM OFFGAS"
+      },
+      {
+        "from": "13",
+        "to": "63"
+      },
+      {
+        "from": "15",
+        "to": "16",
+		"orientation": "Both"
+      },
+      {
+        "from": "31",
+        "to": "15",
+		"description": "UNSAT C4"
+      },
+      {
+        "from": "15",
+        "to": "36",
+		"description": "PROPANE TO STORAGE"
+      },
+      {
+        "from": "15",
+        "to": "32",
+		"description": "iC4 RICH"
+      },
+      {
+		  "from": "32",
+		  "to": "15",
+		  "description": "nC4"
+		},
+		{
+		  "from": "15",
+		  "to": "42"
+		},
+		{
+		  "from": "15",
+		  "to": "43",
+		  "description": "ALKYLATE"
+		},
+		{
+		  "from": "16",
+		  "to": "41"
+		},
+		{
+		  "from": "40",
+		  "to": "16"
+		},
+		{
+		  "from": "19",
+		  "to": "18",
+		  "description": "H2 RICH GAS TO PENEX"
+		},
+		{
+		  "from": "18",
+		  "to": "20"
+		},
+		{
+		  "from": "18",
+		  "to": "21"
+		},
+		{
+		  "from": "18",
+		  "to": "22"
+		},
+		{
+		  "from": "18",
+		  "to": "64"
+		},
+		{
+		  "from": "19",
+		  "to": "64"
+		},
+		{
+		  "from": "19",
+		  "to": "20"
+		},
+		{
+		  "from": "19",
+		  "to": "21"
+		},
+		{
+		  "from": "24",
+		  "to": "23"
+		},
+		{
+		  "from": "25",
+		  "to": "23"
+		},
+		{
+		  "from": "27",
+		  "to": "29"
+		},
+		{
+		  "from": "28",
+		  "to": "66"
+		},
+		{
+		  "from": "29",
+		  "to": "31",
+		  "description": "UNSAT C4"
+		},
+		{
+		  "from": "29",
+		  "to": "35"
+		},
+		{
+		  "from": "30",
+		  "to": "29",
+		  "description": "PURGE"
+		},
+		{
+		  "from": "29",
+		  "to": "30",
+		  "description": "C3="
+		},
+		{
+		  "from": "29",
+		  "to": "36",
+		  "description": "C3"
+		},
+		{
+		  "from": "30",
+		  "to": "34"
+		},
+		{
+		  "from": "33",
+		  "to": "30"
+		},
+		{
+		  "from": "38",
+		  "to": "31"
+		},
+		{
+		  "from": "31",
+		  "to": "26"
+		},
+		{
+		  "from": "31",
+		  "to": "43"
+		},
+		{
+		  "from": "32",
+		  "to": "38"
+		},
+		{
+		  "from": "32",
+		  "to": "26"
+		},
+		{
+		  "from": "46",
+		  "to": "44"
+		},
+		{
+		  "from": "44",
+		  "to": "47"
+		},
+		{
+		  "from": "44",
+		  "to": "55"
+		},
+		{
+		  "from": "45",
+		  "to": "49"
+		},
+		{
+		  "from": "48",
+		  "to": "45"
+		},
+		{
+		  "from": "45",
+		  "to": "55"
+		},
+		{
+		  "from": "50",
+		  "to": "56"
+		},
+		{
+		  "from": "56",
+		  "to": "52"
+		},
+		{
+		  "from": "56",
+		  "to": "54"
+		},
+		{
+		  "from": "56",
+		  "to": "58",
+		  "description": "SOUR GAS"
+		},
+		{
+		  "from": "57",
+		  "to": "58",
+		  "description": "SOUR GAS"
+		},
+		{
+			"from": "57",
+			"to": "54"
+		},
+		{
+			"from": "51",
+			"to": "57"
+		},
+		{
+			"from": "57",
+			"to": "53"
+		},
+		{
+			"from": "58",
+			"to": "59"
+		},
+		{
+			"from": "36",
+			"to": "37"
+		}
+    ]
+}

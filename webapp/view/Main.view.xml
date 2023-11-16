@@ -1,0 +1,67 @@
+<mvc:View controllerName="com.ref.conf.refconf.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:layout="sap.suite.ui.commons.networkgraph.layout"
+    xmlns:networkgraph="sap.suite.ui.commons.networkgraph"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <networkgraph:Graph
+                enableWheelZoom="false"
+                nodes="{/nodes}"
+                lines="{/lines}"
+                id="graph"
+                orientation="LeftRight"
+                height="100%"
+                width="100%"
+                backgroundColor="White"
+            >
+                <networkgraph:layoutAlgorithm>
+                    <layout:LayeredLayout
+                        nodePlacement="BrandesKoepf"
+                        nodeSpacing="100"
+                        lineSpacingFactor="0.5"
+                    />
+                </networkgraph:layoutAlgorithm>
+                <!-- <network:statuses>
+			<network:Status key="CustomSuccess" title="Success" contentColor="sapUiCalendarColorToday" headerContentColor="sapUiCalendarColorToday"
+					borderColor="sapUiCalendarColorToday" selectedBackgroundColor="sapUiChartPaletteQualitativeHue10"
+					selectedBorderColor="sapUiChartPaletteQualitativeHue10" selectedContentColor="black"
+					hoverBorderColor="sapUiCalendarColorToday" hoverContentColor="black"
+					hoverBackgroundColor="sapUiCalendarColorToday"
+					legendColor="sapUiCalendarColorToday" useFocusColorAsContentColor="true"/>
+
+                    <network:Status key="LineStatus" title="Line status"
+					borderColor="sapUiContentShadowColor" backgroundColor="sapUiContentShadowColor"
+					hoverBorderColor="sapUiContentShadowColor" hoverBackgroundColor="sapUiContentShadowColor"
+					legendColor="sapUiContentShadowColor"/>
+
+			<network:Status key="AttributeValue" contentColor="green"/>
+		</network:statuses> -->
+                <networkgraph:nodes>
+                    <networkgraph:Node
+                        key="{key}"
+                        title="{title}"
+                        shape="{shape}"
+                        height="{height}"
+                        width="{width}"
+                        attributes="{path:'attributes', templateShareable:true}"
+                    >
+                        <networkgraph:attributes>
+                            <networkgraph:ElementAttribute label="{label}" value="{value}"></networkgraph:ElementAttribute>
+                        </networkgraph:attributes>
+                </networkgraph:Node>
+                </networkgraph:nodes>
+                <networkgraph:lines>
+                    <networkgraph:Line
+                        to="{to}"
+                        from="{from}"
+                        title="{title}"
+                        arrowOrientation="{orientation}"
+                        description="{description}"
+                    />
+                </networkgraph:lines>
+            </networkgraph:Graph>
+        </content>
+
+    </Page>
+</mvc:View>
